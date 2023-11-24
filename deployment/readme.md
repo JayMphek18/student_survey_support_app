@@ -1,42 +1,76 @@
-**README.md**
+# Deployment Guide
 
-# Student Survey and Support App
+## Student Survey and Support App
 
-Welcome to the Student Survey and Support App repository! This application is designed to enhance communication, engagement, and data analysis within our educational institution.
+This guide provides step-by-step instructions for deploying the Student Survey and Support App using Docker for the backend and React Native for the frontend.
 
-## Contents
+### Prerequisites
 
-This repository contains the source code and documentation for the Student Survey and Support App. Here's an overview of the main contents:
+Before you begin, ensure that you have the following prerequisites installed on your system:
 
-1. **App Source Code:**
-   - The `app` directory contains the source code for the Student Survey and Support App. It includes frontend and backend components necessary for the app's functionality.
-   - In this repo, we only have the source code of the checkbox requirement, and part of the peer review requirement.
+1. **Docker:**
+   - [Install Docker](https://docs.docker.com/get-docker/)
 
-2. **Documentation:**
-   - The `documentation` directory includes user guides, technical specifications, architecture overviews, and other documentation vital for understanding and using the application.
+2. **Node.js and npm:**
+   - [Install Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-3. **Database Schema:**
-   - To get the get the backend of the application running on your local server, follow this link to get the instructions on how to run the backend of the application.
-   - NOTE: The current backend only stores information for the checkbox requirement.
+3. **React Native CLI:**
+   - Install the React Native CLI globally by running:
+     ```bash
+     npm install -g react-native-cli
+     ```
 
-4. **Diagrams:**
-   - The `diagrams` directory contains visual representations of the app's architecture, component diagrams, and entity relationship diagrams.
+### Backend Deployment (Docker)
 
-5. **Deployment Guide:**
-   - The `deployment` directory includes guidelines on deploying the application, system requirements, and compatibility information.
+1. **Clone the Repository:**
+   ```bash
+   git clone [repository-url]
+   cd backend
+   ```
 
-## Getting Started
+2. **Build Docker Image:**
+   ```bash
+   docker build -t student-survey-backend .
+   ```
 
-If you're interested in running the Student Survey and Support App locally, please follow the steps outlined in the [deployment guide](deployment/README.md).
+3. **Run Docker Container:**
+   ```bash
+   docker run -p 5000:5000 student-survey-backend
+   ```
 
-## Documentation
+### Frontend Deployment (React Native)
 
-For detailed instructions on using the app, refer to the user guides and technical documentation available in the `documentation` directory.
+1. **Navigate to the Frontend Directory:**
+   ```bash
+   cd frontend
+   ```
 
-## Contributions
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
 
-We welcome contributions and feedback! If you find issues or have suggestions for improvement, please create a new issue in the repository.
+3. **Run the App:**
+   - For Android:
+     ```bash
+     react-native run-android
+     ```
+   - For iOS:
+     ```bash
+     react-native run-ios
+     ```
 
-Thank you for exploring the Student Survey and Support App repository! Feel free to reach out if you have any questions or need assistance.
+### Access the App
 
-*Happy coding!*
+Once both backend and frontend are deployed, you can access the app through your browser or the React Native app on your emulator or physical device.
+
+- Backend: [http://localhost:5000](http://localhost:5000)
+- Frontend: Follow the instructions on your React Native development environment to run the app on an emulator or physical device.
+
+### Troubleshooting
+
+If you encounter any issues during deployment, refer to the respective documentation for Docker and React Native. Additionally, check for error messages in the terminal to diagnose and resolve any problems.
+
+For further assistance, contact our development team at [contact@example.com](mailto:contact@example.com).
+
+Thank you for deploying the Student Survey and Support App!
