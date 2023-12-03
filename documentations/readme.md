@@ -28,8 +28,8 @@ Welcome to the Documentation folder of the Student SAurvey and Support App repos
 
 ## How to Use
 
-Feel free to navigate through the different folders and documents based on your interest. Each subfolder contains information on a specific aspect of the app's development and usage.
+Feel free to navigate through the different documents based on your interest. Each document contains information on a specific aspect of the app's development and usage.
 
-If you have any questions or need further clarification, please refer to the user guide or reach out to the development team.
+If you have any questions or need further clarification, please refer to the user guide or reach out to the former development team at 2430323@students.wits.ac.za.
 
 Thank you for choosing to build the App!
