@@ -10,13 +10,13 @@ This repository contains the source code and documentation for the Student Surve
 
 1. **App Source Code:**
    - The `app` directory contains the source code for the Student Survey and Support App. It includes frontend and backend components necessary for the app's functionality.
-   - In this repo, we only have the source code of the checkbox requirement, and part of the peer review requirement.
+   - In this repo, we only have the source code of the checkbox requirement.
 
 2. **Documentation:**
    - The `documentation` directory includes user guides, technical specifications, architecture overviews, and other documentation vital for understanding and using the application.
 
 3. **Database Schema:**
-   - To get the get the backend of the application running on your local server, follow this link to get the instructions on how to run the backend of the application.
+   - To get the get the backend of the application running on your local server, follow this link ( https://github.com/kamoKekae/sss-app-backend )to get the instructions on how to run the backend of the application.
    - NOTE: The current backend only stores information for the checkbox requirement.
 
 4. **Diagrams:**
@@ -37,6 +37,6 @@ For detailed instructions on using the app, refer to the user guides and technic
 
 We welcome contributions and feedback! If you find issues or have suggestions for improvement, please create a new issue in the repository.
 
-Thank you for exploring the Student Survey and Support App repository! Feel free to reach out if you have any questions or need assistance.
+Thank you for exploring the Student Survey and Support App repository! Feel free to reach out if you have any questions or need assistance on 2430323@students.wits.ac.za.
 
 *Happy coding!*
