@@ -1,76 +1,35 @@
-# Deployment Guide
+# Documentation
 
-## Student Survey and Support App
+Welcome to the Documentation folder of the Student SAurvey and Support App repository! Here, you will find a collection of documents and resources to guide you through various aspects of the app's development, deployment, and usage.
 
-This guide provides step-by-step instructions for deploying the Student Survey and Support App using Docker for the backend and React Native for the frontend.
+## Contents
 
-### Prerequisites
+1. **User Guide:**
+   - Explore the comprehensive user guide to understand how to interact with the app. This guide provides step-by-step instructions for both students and administrators.
 
-Before you begin, ensure that you have the following prerequisites installed on your system:
+2. **Technical Documentation:**
+   - Delve into the technical details of the app's architecture, components, and integrations. This section includes:
+     - Architecture Overview
+     - API Documentation
+     - Database Schema
+     - Installation and Setup Instructions
 
-1. **Docker:**
-   - [Install Docker](https://docs.docker.com/get-docker/)
+3. **Artifact Documentation:**
+   - Discover detailed documentation related to artifacts produced during the development process. This may include diagrams, design decisions, and more.
 
-2. **Node.js and npm:**
-   - [Install Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+4. **Evaluation Reports:**
+   - Review reports detailing the evaluation process of critical components, such as the Checkbox System and the Peer Review component.
 
-3. **React Native CLI:**
-   - Install the React Native CLI globally by running:
-     ```bash
-     npm install -g react-native-cli
-     ```
+5. **Deployment Guide:**
+   - Find guidance on deploying the app, particularly using Docker for the backend and React Native for the frontend.
 
-### Backend Deployment (Docker)
+6. **Next Steps and Improvements:**
+   - Gain insights into future plans and potential enhancements for the app. This section discusses areas for improvement and expansion.
 
-1. **Clone the Repository:**
-   ```bash
-   git clone [repository-url]
-   cd backend
-   ```
+## How to Use
 
-2. **Build Docker Image:**
-   ```bash
-   docker build -t student-survey-backend .
-   ```
+Feel free to navigate through the different folders and documents based on your interest. Each subfolder contains information on a specific aspect of the app's development and usage.
 
-3. **Run Docker Container:**
-   ```bash
-   docker run -p 5000:5000 student-survey-backend
-   ```
+If you have any questions or need further clarification, please refer to the user guide or reach out to the development team.
 
-### Frontend Deployment (React Native)
-
-1. **Navigate to the Frontend Directory:**
-   ```bash
-   cd frontend
-   ```
-
-2. **Install Dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Run the App:**
-   - For Android:
-     ```bash
-     react-native run-android
-     ```
-   - For iOS:
-     ```bash
-     react-native run-ios
-     ```
-
-### Access the App
-
-Once both backend and frontend are deployed, you can access the app through your browser or the React Native app on your emulator or physical device.
-
-- Backend: [http://localhost:5000](http://localhost:5000)
-- Frontend: Follow the instructions on your React Native development environment to run the app on an emulator or physical device.
-
-### Troubleshooting
-
-If you encounter any issues during deployment, refer to the respective documentation for Docker and React Native. Additionally, check for error messages in the terminal to diagnose and resolve any problems.
-
-For further assistance, contact our development team at [contact@example.com](mailto:contact@example.com).
-
-Thank you for deploying the Student Survey and Support App!
+Thank you for choosing to build the App!
