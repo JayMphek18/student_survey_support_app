@@ -1,6 +1,6 @@
 # Documentation
 
-Welcome to the Documentation folder of the Student SAurvey and Support App repository! Here, you will find a collection of documents and resources to guide you through various aspects of the app's development, deployment, and usage.
+Welcome to the Documentation folder of the Student Survey and Support App repository! Here, you will find a collection of documents and resources to guide you through various aspects of the app's development, deployment, and usage.
 
 ## Contents
 
